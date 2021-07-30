@@ -1,7 +1,7 @@
 const API_URL = 'https://accounts.spotify.com/authorize';
 const CLIENT_ID = '3b438c591ae945fbbd09f7de65a0f694';
 // const REDIRECT_URL = 'https://library.cha-king.com/?display=artist';
-const REDIRECT_URL = 'MY_GITHUB_PAGES_ADDRESS';
+const REDIRECT_URL = 'https://robertwrightgti.github.io';
 
 const LOCAL_ADDR = [
     'localhost',

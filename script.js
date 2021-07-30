@@ -1,4 +1,5 @@
 const API_URL = 'https://api.spotify.com/v1/me/albums';
+const LIVE_URL = 'https://robertwrightgti.github.io/spotify-browser';
 const API_PAGE_LIMIT = 50;
 
 
@@ -109,7 +110,8 @@ function getTokenFromHash() {
 
 const access_token = getAccessToken();
 if (!access_token) {
-    window.location = '/login.html';
+    console.log(window.location.host);
+    window.location = `login.html`;
 }
 
 const urlParams = new URLSearchParams(window.location.search);
